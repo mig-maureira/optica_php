@@ -116,7 +116,3 @@ La base de datos optica.sql ya incluye registros de prueba preestablecidos para 
     Filtros Cross-Site Scripting (XSS): Los datos dinámicos renderizados en pantalla que provienen del usuario o la base de datos están sanitizados mediante htmlspecialchars().
 
     Control de Estado de Cabeceras: Las acciones del carrito y de compras implementan redirecciones limpias con header("Location: ...") seguidas de exit(); para prevenir loops de recarga en blanco y dobles envíos de formularios.
-
-```
-
-```
